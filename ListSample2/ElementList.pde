@@ -4,7 +4,7 @@ class ElementList extends ArrayList<Element> {
    */
   void update() {
     for (Element eachElement : this) {
-      eachElement.display();
+      eachElement.update();
     }
   }
   
